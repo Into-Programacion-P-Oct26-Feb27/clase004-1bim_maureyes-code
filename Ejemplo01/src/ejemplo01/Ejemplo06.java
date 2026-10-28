@@ -17,7 +17,7 @@ public class Ejemplo06 {
         String nombreEstudiante = "René Rolando";
         String apellidoEstudiante = "Elizalde Solano";
         int nacimiento = 1983;
-        
+        ;
         // System.out.println(nombreEstudiante+" "+apellidoEstudiante+ " "+ 
         // nacimiento);
         // En printf; 
@@ -26,7 +26,7 @@ public class Ejemplo06 {
         // usamos %f para reemplazar los valore decimales
         // System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante, 
         //        apellidoEstudiante, nacimiento);
-        System.out.printf("Nombre:%s\n\n%s\n\n%s\n", nombreEstudiante, 
+        System.out.printf("Nombre: %s\n\nApellido: %s\n\nAno de nacimiento: %d\n", nombreEstudiante, 
                 apellidoEstudiante, nacimiento);
         
     }
